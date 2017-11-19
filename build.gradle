@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'war'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	
+	compile 'org.glassfish.jersey.containers:jersey-container-servlet:1.0.2'
+
+}
+
+project.webAppDirName = 'WebContent'
